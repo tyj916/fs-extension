@@ -20,13 +20,6 @@
       "info": "test",
       "votes": 0,
       "id": "FaPGV-dLNs4"
-    },
-    {
-      "content": "test",
-      "author": "test",
-      "info": "test",
-      "votes": 0,
-      "id": "z4Jb8tmoylo"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
