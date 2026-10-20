@@ -27,13 +27,6 @@
       "info": "test",
       "votes": 0,
       "id": "z4Jb8tmoylo"
-    },
-    {
-      "content": "test",
-      "author": "test",
-      "info": "test",
-      "votes": 0,
-      "id": "oCmHiAuC2og"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
