@@ -8,9 +8,14 @@ const useAnecdotes = () => {
     anecdoteService.getAll().then(data => setAnecdotes(data))
   }, [])
 
+  const addAnecdote = async (newAnecdote) => {
+    const savedAnecdote = await anecdoteService.createNew(newAnecdote)
+    setAnecdotes([...anecdotes, savedAnecdote])
+  }
+
   return {
     anecdotes,
-    setAnecdotes,
+    addAnecdote,
   }
 }
 
