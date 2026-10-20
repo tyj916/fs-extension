@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import anecdoteService from '../services/anecdotes'
 
-const useAnecdotes = () => {
+export const useAnecdotes = () => {
   const [anecdotes, setAnecdotes] = useState([])
 
   useEffect(() => {
