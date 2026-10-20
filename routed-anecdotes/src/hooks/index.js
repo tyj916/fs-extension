@@ -5,12 +5,15 @@ const useField = (type) => {
 
   const onChange = (e) => setValue(e.target.value)
 
+  const options = () => ({ type, value, onChange })
+
   const reset = () => setValue('')
 
   return {
     type,
     value,
     onChange,
+    options,
     reset,
   }
 }
